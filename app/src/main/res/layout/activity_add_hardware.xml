@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:title="TAMBAH KOMPUTER" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:fillViewport="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginLeft="16px"
+            android:layout_marginRight="16px"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_prosesor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="masukkan nama prosesor" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/e_input_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_hdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="masukkan nama hardisk" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_memory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="masukkan memory" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_passwor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_vga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="masukkan vga" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_passwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_lan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="masukkan lan" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_passw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_soundcard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="masukkan sound card" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_keyboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="masukkan keyboard" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_mouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="masukkan mouse" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_pas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_power_supply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="masukkan power supply" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_pa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_monitor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="masukkan monitor" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_casing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="masukkan casing" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button android:id="@+id/addhard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="tambah komputer"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+

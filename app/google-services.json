@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1013626591284",
+    "firebase_url": "https://maintenance-665df.firebaseio.com",
+    "project_id": "maintenance-665df",
+    "storage_bucket": "maintenance-665df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013626591284:android:d3966d0d64ce7c7e",
+        "android_client_info": {
+          "package_name": "com.acer.e_maintenance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013626591284-8j9gv23qn2nn3tpmhp333ufldgrjijf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPmf3Vniy1kjgJ1JIxb-O1UGcgbr92_V0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

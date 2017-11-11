@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/komp_idkomsoft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="komponen hardware"
+        android:id="@+id/komp_soft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:lines="5"
+        android:hint="keterangan tindak lanjut"
+        android:id="@+id/komp_soft_tindak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="#ff3847"
+        android:id="@+id/btn_tidak_lanjutsoft"
+        android:text="tindak lanjut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/form_id_kom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_view"
+                android:layout_toRightOf="@+id/image_view"
+                android:text="prosesor"
+                android:textSize="16dp" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/form_id_asisten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_view"
+                android:layout_toRightOf="@+id/image_view"
+                android:text="prosesor"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/form_kode_komputer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ff3847"
+                android:text="tes"
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large.Inverse" />
+
+            <LinearLayout
+                android:animateLayoutChanges="true"
+                android:id="@+id/linearLayout"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_margin="5dp"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/image_view"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/prosesor"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="8dp"  />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <TextView
+                            android:text="haloooo"
+                            android:id="@+id/form_prosesor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="baik"
+                            android:id="@+id/checkbox_baik"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="bermasalah"
+                            android:id="@+id/checkbox_masalah"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_margin="5dp"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/hdd"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="8dp"  />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/form_hdd"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="baik"
+                            android:id="@+id/checkbox_baik1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="bermasalah1"
+                            android:id="@+id/checkbox_masalah1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_margin="5dp"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ram"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="8dp"  />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/form_ram"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:text="ram"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="baik"
+                            android:id="@+id/checkbox_baik2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="bermasalah"
+                            android:id="@+id/checkbox_masalah2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="220px"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_margin="5dp"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/vga"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="8dp"  />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/form_vga"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:text="vga"
+                            android:textSize="16dp" />
+                        <CheckBox
+                            android:text="baik"
+                            android:id="@+id/checkbox_baik3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="bermasalah"
+                            android:id="@+id/checkbox_masalah3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_margin="5dp"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/lan_card"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="8dp"  />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/form_lan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:text="prosesor"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="baik"
+                            android:id="@+id/checkbox_baik4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="bermasalah"
+                            android:id="@+id/checkbox_masalah4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_margin="5dp"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/soundcard"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="8dp"  />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/form_sound_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:text="prosesor"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="baik"
+                            android:id="@+id/checkbox_baik5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="bermasalah"
+                            android:id="@+id/checkbox_masalah5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_margin="5dp"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/keyboard"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="8dp"  />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/form_keyboard"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:text="prosesor"
+                            android:textSize="16dp" />
+                        <CheckBox
+                            android:text="baik"
+                            android:id="@+id/checkbox_baik7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="bermasalah"
+                            android:id="@+id/checkbox_masalah7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_margin="5dp"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/mouse"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="8dp"  />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/form_mouse"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:text="prosesor"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="baik"
+                            android:id="@+id/checkbox_baik8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="bermasalah"
+                            android:id="@+id/checkbox_masalah8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_margin="5dp"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/power_supply"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="8dp"  />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/form_power_supply"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:text="prosesor"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="baik"
+                            android:id="@+id/checkbox_baik9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="bermasalah"
+                            android:id="@+id/checkbox_masalah9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_margin="5dp"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/monitor"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="8dp"  />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/form_monitor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:text="prosesor"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="baik"
+                            android:id="@+id/checkbox_baik10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="bermasalah"
+                            android:id="@+id/checkbox_masalah10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_margin="5dp"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/casing"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="8dp"  />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/form_casing"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:text="prosesor"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="baik"
+                            android:id="@+id/checkbox_baik11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                        <CheckBox
+                            android:text="bermasalah"
+                            android:id="@+id/checkbox_masalah11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/image_view"
+                            android:layout_toRightOf="@+id/image_view"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <Button
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:id="@+id/btn_submit"
+                    android:background="#ff3847"
+                    android:text="submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

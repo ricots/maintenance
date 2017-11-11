@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                android:text="tes"
+                android:id="@+id/id_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_view"
+                android:layout_toRightOf="@+id/image_view"
+                android:textSize="16dp" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/idsof_maint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_view"
+                android:layout_toRightOf="@+id/image_view"
+                android:textSize="16dp" />
+
+            <TextView
+                android:text="nama software"
+                android:id="@+id/software_maint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_view"
+                android:layout_toRightOf="@+id/image_view"
+                android:textSize="16dp" />
+
+            <CheckBox
+                android:text="ada"
+                android:id="@+id/check_ada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:text="tidak ada"
+                android:id="@+id/check_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#ff3847"
+        android:id="@+id/btnsubmit"
+        android:text="submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
